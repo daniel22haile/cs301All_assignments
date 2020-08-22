@@ -11,3 +11,5 @@ if (cost_of_house >= 0 && cost_of_house < 50000){
 }else {
     down_payment = 27500 + 0.25(cost_of_house -200000);
 }
+
+    consule.log(down_payment);
