@@ -32,4 +32,4 @@ if (person_status === "student"){
     loan_duration = 0;
 }
 
-console.log("The book (s) loan duration is " + loan_duration + "days.");
+console.log("The book loan duration is " + loan_duration + "days.");
