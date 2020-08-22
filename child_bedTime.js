@@ -21,3 +21,5 @@ if (child_age >= 5){
 }else {
     bed_time = "9:30 p.m.";
 }
+
+console.log(bed_time);
