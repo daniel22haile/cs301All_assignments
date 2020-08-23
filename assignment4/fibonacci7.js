@@ -1,3 +1,4 @@
+//To get the first 25 fibonacci series nuber
 let num = 25;
 let a = 0;
 let b = 1;
