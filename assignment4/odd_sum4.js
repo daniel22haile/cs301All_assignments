@@ -4,7 +4,7 @@ num = parseInt(num);
 
 //Method to check if a number is odd
 function odd(num){
-    return Boolean(num%2);
+    return Boolean(num % 2);
 }
 
 
