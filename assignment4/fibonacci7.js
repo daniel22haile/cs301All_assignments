@@ -6,7 +6,7 @@ let fn = a + b;
 document.write(a);
    
     do {
-        document.write(" "+fn);
+        console.log(" "+fn);
         fn = a + b;
         a = b;
         b = fn;
