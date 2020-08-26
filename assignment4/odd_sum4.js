@@ -14,4 +14,4 @@ function odd(num){
             sum +=i;
         }
     }
-    console.log("The sum of the given odd numbers is " + sum);
+    console.log("The sum of the given odd number is " + sum);
