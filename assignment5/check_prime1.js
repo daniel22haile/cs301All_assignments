@@ -21,4 +21,4 @@ function isPrime(value) {
    return true;
 }
 console.log(isPrime(user_input));
-//console.log(value);
+
