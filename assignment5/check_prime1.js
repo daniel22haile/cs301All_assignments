@@ -1,20 +1,24 @@
-const prompt = require("prompt-sync")();
-let value = prompt("Please enter an integer: ");
-value = parseInt(value);
-let prime;
-function isPrime(value) {
 
-    prime = true;
-    for(var i = 2; i < value; i++) {
-        if(value % i === 0) {
-            return false;
-            break;
-        }else{
-            return true;
-            break;
+//primre number can only divide evenly by itself or one except number 2
+//e.g. 11 / 2 = 2.5 is a prime number 
+
+const prompt =require("prompt-sync")();
+let user_input = prompt("Please enter an integer: ");
+user_input = parseInt(user_input);
+function isPrime(value) {
+    
+    
+   if (value < 2){
+       return false;
+    }
+   //using modulus %
+   for (let i = 2; i < value; i++){
+       if (value % i === 0){
+           return false;
         }
     }
-    return value > 1;
+
+   return true;
 }
-console.log(isPrime(prime));
+console.log(isPrime(user_input));
 //console.log(value);
