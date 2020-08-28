@@ -7,7 +7,8 @@
     let guess;
     let guessCount = 0;
     do {
-        guess = parseInt(prompt(message));
+        guess = (prompt(message));
+        guess = parseInt(guess);
         guessCount++;
         if (guess < answer) {
         message = guess +
@@ -21,10 +22,6 @@
             }
     } while (guess != answer);
     message = guess + " is correct!";
-    console.log(message);
+    alert(message);
 
-    console.log("number of guess: " + guessCount);
-    
-
- 
-        
+    alert("number of guess: " + guessCount);
