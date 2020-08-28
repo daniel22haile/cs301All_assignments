@@ -6,8 +6,9 @@ fahrenheit = parseFloat(fahrenheit);
 function farhToCels(fahrenheit){
     let fTemp = fahrenheit;
     let fToC = (fTemp - 32) * 5 / 9;
-    let result = fTemp + " degree fahrenheit is " + fToC+ " degree celsius."
-    console.log(result);
+    let result = fTemp + " degree fahrenheit is " + fToC+ " degree celsius.";
+    return result;
+    
 }
 
-farhToCels(fahrenheit);
+console.log(farhToCels(fahrenheit));
