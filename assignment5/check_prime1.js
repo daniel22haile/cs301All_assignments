@@ -1,9 +1,10 @@
 const prompt = require("prompt-sync")();
 let value = prompt("Please enter an integer: ");
 value = parseInt(value);
-
+let prime;
 function isPrime(value) {
 
+    prime = true;
     for(var i = 2; i < value; i++) {
         if(value % i === 0) {
             return false;
@@ -15,5 +16,5 @@ function isPrime(value) {
     }
     return value > 1;
 }
-isPrime(value);
+console.log(isPrime(prime));
 //console.log(value);
