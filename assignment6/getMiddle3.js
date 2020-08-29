@@ -1,3 +1,4 @@
+"use strict";
 function getMiddle(arr) {
     if (arr.length % 2 !== 0) {
       return arr[Math.floor(arr.length / 2)];

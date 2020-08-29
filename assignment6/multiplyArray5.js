@@ -1,3 +1,4 @@
+"use strict";
 function multiply(list, multiplier){
 
     for (let i =0; i< list.length; i++){

@@ -1,3 +1,4 @@
+"use strict";
 function rotateRight(arr) {
     let temp = arr[arr.length - 1];
     for (let i = arr.length - 1; i >= 1; i--) {

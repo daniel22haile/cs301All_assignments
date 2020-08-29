@@ -1,3 +1,4 @@
+"use strict";
 function leftRotate(arr) {
     for (let i = 0; i + 1 < arr.length; i++) {
         let swap = arr[i];

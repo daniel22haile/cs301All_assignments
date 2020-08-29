@@ -1,4 +1,4 @@
-
+"use strict";
 function addEnds(list){
     return list[0]+list[list.length-1];
        }
