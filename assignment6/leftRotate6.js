@@ -1,13 +1,11 @@
-//let list = [17,8, 9, 5, 20];
-
-function leftRotate(list, n){
-    const newArr = list.concat();
-
-    for (let i =0; i < n; i++){
-        const frontItem = newArr.shift();
-        newArr.push(frontItem);
-
+function leftRotate(list, d) {
+    var list = [];
+    for (var i = 0; i < list.length; i++) {
+        list.push(list[i]);
+    };
+    for (var j = 1; j <= d; j++) {
+        list.shift(list.push(list[0]));
     }
-    return newArr;
+    return list;
 }
 console.log(leftRotate([11,22,33,44,55], 2));
