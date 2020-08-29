@@ -1,13 +1,12 @@
-let list = [17,8,9,5,20];
 
-function countEvens (list){
-    let sum = 0;
-    let count ;
+function countEvens(list){
+    let count = 0;
     for (let i =0; i <list.length; i++){
         if (list[i] % 2 === 0)
             count++;
-        sum+=count;
+        
     }
-    return sum;
+    return count;
 }
-console.log(countEvens(list));
+let arr = [22,22,13,15,19,20];
+console.log(countEvens(arr));
