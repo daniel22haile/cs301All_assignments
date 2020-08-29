@@ -1,4 +1,4 @@
-let list = [17,8,9,5,20];
+//let list = [17,8,9,5,20];
 
 function multiply(list, multiplier){
 
@@ -7,4 +7,4 @@ function multiply(list, multiplier){
     }
     return list;
 }
-console.log(multiply(list[i],3));
+console.log(multiply([11,2,33,44,55,6],3));
