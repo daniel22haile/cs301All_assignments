@@ -11,5 +11,5 @@ function addEnds(list){
     
 }
 
-console.log(addEnds(total));
+console.log(addEnds(list));
 
