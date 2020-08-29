@@ -5,6 +5,4 @@ function getMiddle(arr) {
       return (arr[arr.length / 2] + arr[(arr.length / 2) - 1]) / 2;
     }
   }
-  let arr1 = [12,23,45,67,89];
-  let arr2 = [1,2,3,4,5,6,7,8];
-  console.log(getMiddle(arr));
+  console.log(getMiddle(arr))
