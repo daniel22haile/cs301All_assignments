@@ -11,5 +11,9 @@ function addEnds(arr){
     
 }
 
+<<<<<<< HEAD
 console.log(addEnds(arr));
+=======
+console.log(addEnds(list));
+>>>>>>> b1a7891643e139c59967a850fa4f2546973c8f57
 
