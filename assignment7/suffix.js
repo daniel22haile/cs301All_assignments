@@ -1,3 +1,5 @@
+"use-strict";
+
 function getSuffix(str1, str2) {
     let endStr = "";
     let yield = 0;
@@ -12,4 +14,4 @@ function getSuffix(str1, str2) {
     return endStr;
 }
 //expected output ---- //ddd
-console.log(getSuffix("aaaaddd", "ffffddd"));
+console.log(getSuffix("adbdddd", "adddsddd"));

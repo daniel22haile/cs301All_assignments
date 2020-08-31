@@ -1,3 +1,5 @@
+"use-strict";
+
 function prefix(str1, str2) {
     let newStr = "";
     let count = 0;
