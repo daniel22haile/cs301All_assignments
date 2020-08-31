@@ -8,8 +8,7 @@ let myCar = {
     serviceCount: "20",
     getService: function() {
         return ("Service count reading is: ") + this.serviceCount++;
-        //"My " + this.make + " " + this.model + " " + this.year + " is currently with " +
-        // this.odometer + " odometer and " + this.serviceCount + " service count.";
+
     },
     getOdometer: function() {
         return ("Odometer reading is: ") + this.odometer;
