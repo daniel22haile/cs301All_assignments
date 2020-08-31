@@ -1,6 +1,6 @@
 "use-strict";
 
-function prefix(str1, str2) {
+function switchCase(str1, str2) {
     let newStr = "";
     let count = 0;
     while (true) {
@@ -15,4 +15,4 @@ function prefix(str1, str2) {
     return newStr;
 }
 //expected output //disa
-console.log(prefix("disadvantage", "disallowed"));
+console.log(switchCase("disadvantage", "disallowed"));
