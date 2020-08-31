@@ -1,121 +1,121 @@
-function givenName(s)
+// function givenName(s)
+
+// {
+
+//     return s.split(", ")[1];
+
+// }
+
+function prefix(string1, string2)
 
 {
 
-    return s.split(", ")[1];
+    let = "";
 
-}
+    let length_1 = string1.length;
 
-function prefix(s1, s2)
+    let length_2 = string2.length;
 
-{
+    let n;
 
-    var p = "";
+    if (length_1 < length_2)
 
-    var l1 = s1.length;
-
-    var l2 = s2.length;
-
-    var n;
-
-    if (l1 < l2)
-
-        n = l1
+        n = length_1
 
     else
 
-        n = l2
+        n = length_2
 
-    var i = 0;
-
-    for (i = 0; i < n; i++)
+    for (let i = 0; i < n; i++)
 
     {
-
-        if (s1[i] != s2[i])
+        if (string1[i] != string2[i])
 
             return p;
 
-        p = p + s1[i];
+        p = p + string1[i];
 
     }
 
     return p;
 
 }
+let use1 = prompt("enter st1 :");
+let use2 = prompt("enter st2: ");
+let ans = prefix(use1, use2);
 
-HTML Code:
+// HTML Code:
 
-    <
-    html >
+//     <
+//     html >
 
-    <
-    head >
+//     <
+//     head >
 
-    <
-    /head>
+//     <
+//     /head>
 
-<
-body >
+// <
+// body >
 
-    <
-    script >
+//     <
+//     script >
 
-    document.write(givenName("Reagan, Ronald<br>"));
+//     document.write(givenName("Reagan, Ronald<br>"));
 
-document.write(prefix("disable", "distasteful"));
+// document.write(prefix("disable", "distasteful"));
 
-function givenName(s)
+// function givenName(s)
 
-{
+// {
 
-    return s.split(", ")[1];
+//     return s.split(", ")[1];
 
-}
+// }
 
-function prefix(s1, s2)
+// function prefix(s1, s2)
 
-{
+// {
 
-    var p = "";
+//     var p = "";
 
-    var l1 = s1.length;
+//     var l1 = s1.length;
 
-    var l2 = s2.length;
+//     var l2 = s2.length;
 
-    var n;
+//     var n;
 
-    if (l1 < l2)
+//     if (l1 < l2)
 
-        n = l1
+//         n = l1
 
-    else
+//     else
 
-        n = l2
+//         n = l2
 
-    var i = 0;
+//     var i = 0;
 
-    for (i = 0; i < n; i++)
+//     for (i = 0; i < n; i++)
 
-    {
+//     {
 
-        if (s1[i] != s2[i])
+//         if (s1[i] != s2[i])
 
-            return p;
+//             return p;
 
-        p = p + s1[i];
+//         p = p + s1[i];
 
-    }
+//     }
 
-    return p;
+//     return p;
 
-}
+// }
 
-<
-/script>
+// <
+// /script>
 
-<
-/body>
+// <
+// /body>
 
-<
-/html>
+// <
+// /html>
