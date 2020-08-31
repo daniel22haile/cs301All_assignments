@@ -6,9 +6,24 @@ let myCar = {
     year: "2020",
     odometer: "1000",
     serviceCount: "20",
-    getDetails: function() {
-        return "My " + this.make + " " + this.model + " " + this.year + " is currently with " +
-            this.odometer + " odometer and " + this.serviceCount + " service count.";
+    getService: function() {
+        return ("Service count reading is: ") + this.serviceCount++;
+        //"My " + this.make + " " + this.model + " " + this.year + " is currently with " +
+        // this.odometer + " odometer and " + this.serviceCount + " service count.";
+    },
+    getOdometer: function() {
+        return ("Odometer reading is: ") + this.odometer;
+    },
+    getReset: function() {
+        let myOdometer = (this.odometer = 0);
+        let myServiceCount = (this.serviceCount = 0);
+        return ("Odometer get reset to ") + myOdometer +
+            " and \nServiceCount also reset to " + myServiceCount + ".";
     }
 }
-console.log(myCar.getDetails());
+
+
+console.log(myCar.getService());
+console.log(myCar.getService());
+console.log(myCar.getOdometer());
+console.log(myCar.getReset())
