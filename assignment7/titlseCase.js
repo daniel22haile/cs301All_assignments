@@ -1,3 +1,5 @@
+"use-strict";
+
 function titleCase1(s) {
     let arr = s.split(" ");
     for (let a = 0; a < arr.length; a++) {
