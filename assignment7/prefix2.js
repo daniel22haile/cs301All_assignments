@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 
 function switchCase(str1, str2) {
     let newStr = "";

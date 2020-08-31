@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 
 function getSuffix(str1, str2) {
     let endStr = "";

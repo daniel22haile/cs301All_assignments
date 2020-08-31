@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 
 function switchCase(s) {
     let str = s.toLowerCase();
