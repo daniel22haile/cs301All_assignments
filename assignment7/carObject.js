@@ -20,8 +20,9 @@ let myCar = {
             " and \nServiceCount also reset to " + myServiceCount + ".";
     }
 }
-
-
+console.log("Make: " + myCar.make);
+console.log("Model: " + myCar.model);
+console.log("Year: " + myCar.year);
 console.log(myCar.getService());
 console.log(myCar.getService());
 console.log(myCar.getOdometer());
